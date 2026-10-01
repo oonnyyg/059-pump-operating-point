@@ -1,0 +1,49 @@
+{
+  "plans": [
+    {
+      "name": "single-rated",
+      "pumps": 1,
+      "speed_ratio": 1.0,
+      "arrangement": "parallel",
+      "static_head": 10.0,
+      "resistance": 3000.0,
+      "hours": 24.0
+    },
+    {
+      "name": "two-series",
+      "pumps": 2,
+      "speed_ratio": 1.0,
+      "arrangement": "series",
+      "static_head": 30.0,
+      "resistance": 4000.0,
+      "hours": 12.0
+    },
+    {
+      "name": "two-parallel-half-speed",
+      "pumps": 2,
+      "speed_ratio": 0.5,
+      "arrangement": "parallel",
+      "static_head": 5.0,
+      "resistance": 2000.0,
+      "hours": 8.0
+    },
+    {
+      "name": "boundary-shutoff",
+      "pumps": 1,
+      "speed_ratio": 1.0,
+      "arrangement": "parallel",
+      "static_head": 40.0,
+      "resistance": 0.0,
+      "hours": 1.0
+    },
+    {
+      "name": "boundary-out-of-range",
+      "pumps": 1,
+      "speed_ratio": 1.0,
+      "arrangement": "parallel",
+      "static_head": 0.0,
+      "resistance": 0.0,
+      "hours": 1.0
+    }
+  ]
+}

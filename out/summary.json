@@ -1,0 +1,49 @@
+{
+  "plans": [
+    {
+      "name": "two-parallel-half-speed",
+      "status": "ok",
+      "flow": 0.04126301942078902,
+      "head": 8.405273543440824,
+      "efficiency": 0.7468424514480274,
+      "input_power_kw": 4.554120690694855,
+      "energy_kwh": 36.43296552555884
+    },
+    {
+      "name": "single-rated",
+      "status": "ok",
+      "flow": 0.06914365858308909,
+      "head": 24.342536566764366,
+      "efficiency": 0.6314225606268318,
+      "input_power_kw": 26.140793541438207,
+      "energy_kwh": 627.379044994517
+    },
+    {
+      "name": "two-series",
+      "status": "ok",
+      "flow": 0.06881943016134132,
+      "head": 48.944455870926944,
+      "efficiency": 0.6338542737899401,
+      "input_power_kw": 52.112970553165916,
+      "energy_kwh": 625.355646637991
+    },
+    {
+      "name": "boundary-out-of-range",
+      "status": "out_of_range",
+      "flow": null,
+      "head": null,
+      "efficiency": null,
+      "input_power_kw": null,
+      "energy_kwh": null
+    },
+    {
+      "name": "boundary-shutoff",
+      "status": "no_flow",
+      "flow": null,
+      "head": null,
+      "efficiency": null,
+      "input_power_kw": null,
+      "energy_kwh": null
+    }
+  ]
+}
